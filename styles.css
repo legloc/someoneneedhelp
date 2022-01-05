@@ -1,0 +1,66 @@
+body {
+  background: #fafaf7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar .navbar-brand {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.navbar .navbar-nav {
+  font-size: .9em;
+}
+
+.navbar .nav-item {
+  margin: 0 1em;
+}
+
+.navbar .nav-link.active {
+  padding-bottom: 3px;
+  border-bottom: 1px #000 solid;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px transparent solid;
+  border-bottom: 1px #ccc solid;
+  outline: none;
+  padding: 5px 15px;
+  margin-top: 2em;
+  transition: all .2s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #000;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px #ccc solid;
+  padding: 5px 15px;
+  transition: all .2s ease-in-out;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+  border-color: #000;
+}
+
+footer span {
+  font-size: .8em;
+  letter-spacing: 1px;
+}
